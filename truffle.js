@@ -10,6 +10,12 @@ module.exports = {
     test: {
       provider: TestRPC.provider(),
       network_id: "*"
+    },
+    mocha: {
+      reporter: "spec",
+      reporterOptions: {
+        mochaFile: 'junitresults.xml'
+      }
     }
   }
 };
