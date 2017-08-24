@@ -9,13 +9,13 @@ module.exports = {
     },
     test: {
       provider: TestRPC.provider(),
-      network_id: "*"
-    },
-    mocha: {
-      reporter: "spec",
-      reporterOptions: {
-        mochaFile: 'junitresults.xml'
-      }
+      network_id:"*"
+    }
+  },
+  mocha: {
+    reporter: "spec",
+    reporterOptions: {
+      mochaFile: 'junitresults.xml'
     }
   }
 };
