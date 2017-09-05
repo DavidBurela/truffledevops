@@ -7,7 +7,7 @@ module.exports = {
       port: 8545,
       network_id: "*" // Match any network id
     },
-    test: {
+    localtest: {
       provider: TestRPC.provider(),
       network_id:"*"
     }
