@@ -7,15 +7,17 @@ module.exports = {
       port: 8545,
       network_id: "*" // Match any network id
     },
+    // add a new network definition that will self host TestRPC
     localtest: {
       provider: TestRPC.provider(),
       network_id:"*"
     }
   },
+  // add a section for mocha defaults
   mocha: {
     reporter: "spec",
     reporterOptions: {
-      mochaFile: 'junitresults.xml'
+      mochaFile: 'TEST-truffle.xml'
     }
   }
 };
