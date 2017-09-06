@@ -2,7 +2,7 @@
 
 This is a self contained pre-configured [Truffle](http://TruffleFramework.com) project that can be compiled and tested on a build server.
 
-TODO: Add link to blog post.
+Read the full blog post for information on how to set this up https://davidburela.wordpress.com/2017/09/06/ethereum-devops-with-vsts-easier-now-with-new-truffle-installer-npx/
 
 ## Running locally
 
